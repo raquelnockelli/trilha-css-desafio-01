@@ -1,0 +1,164 @@
+@import url('reset.css');
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1{
+    background-image: linear-gradient(#33A8DB,#1472B7);/*define degrade de fundo*/
+    -webkit-background-clip: text; /* apaga fundo q não esta atras do texto*/
+    color: transparent; /*deixando texto transparente para aparecer só o fundo*/
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6) 5%, rgba(49,168,221,0.2)50%, rgba(0,0,0,0.6)95%),
+    url('./images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 605px;
+    text-align: center;
+    border-bottom: 2px solid #33A8DB;
+    padding-top: 20px;
+    
+}
+
+.banner-content p{
+    font-size: 20px;
+    width: 514px;
+    height: 46px;
+    margin: auto;
+    padding-top: 20px;
+    }
+
+.banner .logo { 
+    background-color: rgba(0, 0, 0, .2); /* cor preta com transparencia 20%*/
+    height: 260px; /*altura do container*/
+    width: 260px;/*largura do container*/
+    margin: auto; /*Centraliza o contêiner horizontalmente no seu elemento pai*/
+    border-radius: 50%;  /* transforma o container num curculo*/
+    padding: 16px; /*add espaço interno entre o circulo e a imagem*/
+    margin-bottom: 16px; /* add espaço externo abaixo do circulo separando do proximo elemento*/
+  }
+
+.banner .logo img { /* seletor da imagem dentro do container logo*/
+    margin: auto; /*centraliza a imagem dentro do container*/
+    width: 100%; /*faz imagem ocupar 100% da larg e alt interna do contêiner (considerando o espaço interno reduzido pelo padding)*/
+    height: 100%;
+    object-fit: contain; /*garante o redimensionamento proporcional da imagem para caber no espaço disponival*/
+ }
+
+ .banner button{
+    width: 326px;
+    height: 57px;
+    border: 2px solid;
+    border-image: linear-gradient (#3BA1CD 0% #1572B7 100%);
+    background-color: transparent;
+    color: #31A8DD;
+    text-transform: uppercase;
+    font-size: 16px ;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+
+
+#course-content {
+    text-align: center;
+    
+}
+
+#course-content p{
+    margin: 30px auto 30px ;
+    width: 792px;  
+}
+
+.modules-list .module{
+    margin: 24px auto;
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    line-height: 51px;
+    text-align: center;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25)  
+}
+
+span{
+    color: #33A8DB;
+}
+
+#transform-world{
+   
+    height: 363px;
+    margin-top: 80px;
+    background-image: url('./images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    border: 2px solid #33A8DB;
+ 
+
+
+}
+
+#transform-world p{
+   /* width: 244px;
+    height: 141px;*/
+    margin-top: 111px;
+    margin-left: 198px;
+    font-weight: 900;
+    font-size: 40px ;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+    text-align: left;
+    
+}
+
+h2{
+    color: #33A8DB;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 746px;
+    margin: 50px auto 0;
+           
+}
+
+#professional-challenges{
+   text-align: center;
+   width: 800px;
+   margin: auto auto 50px;
+    
+}
+
+#professional-challenges img {
+    margin: 25px 0;
+  }
+  
+  footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+  }
+  
+  footer .dio-logo {
+    width: 300px;
+  }
+  
+  footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+  }
